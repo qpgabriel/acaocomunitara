@@ -10,20 +10,25 @@
 
   <body>
   <nav class="navbar navbar-expand navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Acao Comunitaria</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample02" aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
     <div class="collapse navbar-collapse" id="navbarsExample02">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <%= link_to  "Projetos", home_path %>
+          <%= link_to  "Acao Comunitaria", home_path %>
         </li>
       </ul>
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <%= link_to  "Criar Projeto", new_post_path %>
+          <%= link_to  "Sobre", sobre_path %>
+        </li>
+      </ul>
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <%= link_to  "Contato", contato_path %>
+        </li>
+      </ul>
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <%= link_to  "Projetos", posts_path %>
         </li>
       </ul>
     </div>
